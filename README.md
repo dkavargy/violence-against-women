@@ -23,8 +23,6 @@ During my postgraduate studies in the Data and Web Science program at Aristotle 
 
 Violence Against Women dataset from the Pacific Data Hub data source comprises records gathered from several official international surveys reporting on indicators linked to violence against women in 22 Pacific Ocean nations. These data refer to the period 2006 - 2019.
 
-Dataset can be found here: https://github.com/MariosKadriu/Predicting-Violence-Against-Women/blob/main/data/VAW.csv
-
 ## 🖥️ Installation
 
 ### 🛠️ Requirements
@@ -50,31 +48,6 @@ pip install xgboost
 
 ```
 
-## 🔍 Exploratory Data Analysis
-
-### Number of cases per year
-![image-1](https://user-images.githubusercontent.com/19438003/191947304-d93139ef-a8c4-49b1-9c7e-2c900b5d1b68.png)
-
-### Number of cases per each pacific island country and territory
-![image-2](https://user-images.githubusercontent.com/19438003/191947823-7b8adee3-9093-44be-b3bb-3c51b60223ad.png)
-
-### Number of cases per topic
-![image-3](https://user-images.githubusercontent.com/19438003/191947909-6edc16a2-a89b-4fc4-9ff1-6e4c756582cf.png)
-
-### Number of cases per each women's condition
-![image-4](https://user-images.githubusercontent.com/19438003/191948112-b8427c93-36b0-4e55-8b06-aa6663095401.png)
-
-### Number of cases per each type of violence
-![image-5](https://user-images.githubusercontent.com/19438003/191948222-2cc743a2-7955-4c58-9795-703263a60160.png)
-
-### Number of cases per each perpetrator type
-![image-6](https://user-images.githubusercontent.com/19438003/191948529-b6c9a817-125c-4453-ab04-9b27bfd4700d.png)
-
-### Number of cases per each period of life
-![image-7](https://user-images.githubusercontent.com/19438003/191948913-227fd53a-6fa1-4c5a-a023-3bcdb7d9774c.png)
-
-### Number of cases per each outcome
-![image-8](https://user-images.githubusercontent.com/19438003/191949386-b669d138-6865-4cdb-8310-ddfaf6717c6e.png)
 
 ## ⏳ Data Preprocessing
 
