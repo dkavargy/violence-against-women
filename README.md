@@ -2,18 +2,6 @@
 
 ## Table of Contents
 
-[Description](https://github.com/MariosKadriu/Predicting-Violence-Against-Women#-description)
- 
-[Dataset](https://github.com/MariosKadriu/Predicting-Violence-Against-Women#-dataset)
-
-[Installation](https://github.com/MariosKadriu/Predicting-Violence-Against-Women#%EF%B8%8F-installation)
-
-[Exploratory Data Analysis](https://github.com/MariosKadriu/Predicting-Violence-Against-Women#-exploratory-data-analysis)
-
-[Data Preprocessing](https://github.com/MariosKadriu/Predicting-Violence-Against-Women#-data-preprocessing)
-
-[Modeling and Evaluation](https://github.com/MariosKadriu/Predicting-Violence-Against-Women#-modeling-and-evaluation)
-
 
 ## 📝 Description
 
