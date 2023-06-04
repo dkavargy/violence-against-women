@@ -5,11 +5,11 @@
 
 ## 📝 Description
 
-During my postgraduate studies in the Data and Web Science program at Aristotle University of Thessaloniki, I completed the aforementioned project as part of the Machine Learning course. The project's goal was to analyze the data, process it correctly, and then use it to train machine learning algorithms to anticipate the impact of abusive acts on the victims' subsequent lives. The target variable in the dataset is OUTCOME.
+I conducted the mentioned project during my postgraduate studies in the Data and Web Science program at Aristotle University of Thessaloniki, as a part of the Machine Learning course. The primary objective of the project was to analyze and preprocess the data accurately. Subsequently, I utilized machine learning algorithms to predict the potential consequences of abusive acts on the victims' future lives. The target variable in the dataset, referred to as "OUTCOME," was the focal point of the prediction task.
 
 ## 📚 Dataset
 
-Violence Against Women dataset from the Pacific Data Hub data source comprises records gathered from several official international surveys reporting on indicators linked to violence against women in 22 Pacific Ocean nations. These data refer to the period 2006 - 2019.
+The dataset on violence against women, obtained from the Pacific Data Hub, includes data collected from various authoritative international surveys conducted in 22 nations located in the Pacific Ocean region. The dataset covers a time span ranging from 2006 to 2019 and contains indicators related to violence against women.
 
 ## 🖥️ Installation
 
@@ -17,10 +17,10 @@ Violence Against Women dataset from the Pacific Data Hub data source comprises r
 * Python >= 3.6
 * NumPy
 * Pandas
+* Seaborn
 * Matplotlib
 * Scikit-learn
-* Imbalanced-learn
-* XGBoost
+
 
 ### ⚙️ Setup
 
@@ -29,27 +29,26 @@ All of the above packages can be installed from the following commands.
 ```bash
 pip install numpy
 pip install pandas
+pip install seaborn
 pip install matplotlib
 pip install -U scikit-learn
-pip install -U imbalanced-learn
-pip install xgboost
-
 ```
 
 
 ## ⏳ Data Preprocessing
 
-* Drop of insignificant features
-* Seperate features into numerical features and categorical
-* Impute missing values of numerical features using KNNImputer
-* Impute missing values of categorical features using SimpleImputer
-* Encode categorical features using OneHotEncoder
-* Scaling features using MinMaxScaler
-* PCA is used to reduce dimensionality by adjusting the variance of the input that is expected to be explained by the produced components.
-* Over Sampling using RandomOverSampler in order to deal with the imbalance of classes in the dataset.
+* Transform the categorical data to numerical with the use
+  of a defined function. The ’_T: Any’ values are transformed to number 0.
+* Shows a more Interactive Chart about the distribution of each Topic
+* Correlation between the different attributes of dataset
+* Face a MultiClass problem and we use all the different labels of the
+  OUTCOME column in order to build a classifier model.
+* We split the original dataset in 2 parts
+* Pass the values in the OneHotEncoder in order to transform them to
+  numerical.
+* Feature importance we use the Random Forest model.
+* For the multiclassification problem we implement 4 different classifiers
 * Impute missing values of dependent variable OUTCOME: Outcome using Clustering
-* K-Fold Cross Validation used to split all the samples in 10 groups of samples
-* Saving final dataset with all values filled
 
 ## 🎯 Modeling and Evaluation
 
